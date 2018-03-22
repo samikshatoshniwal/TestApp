@@ -15,7 +15,7 @@ class LoginFormView: UIView {
     let emailTextField: UITextField = UITextField()
     
     let passwordTextField: UITextField = UITextField()
-
+    
     //    MARK: setup methods
     
     override init(frame: CGRect) {
@@ -26,7 +26,7 @@ class LoginFormView: UIView {
     required init(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-
+    
     //    MARK: setup methods
     
     func createLoginFormView() {

@@ -10,7 +10,7 @@ import UIKit
 import SnapKit
 
 class LoginViewController: UIViewController {
-
+    
     var loginFormView: LoginFormView = LoginFormView()
     let loginButton: UIButton = UIButton()
     
@@ -60,12 +60,6 @@ class LoginViewController: UIViewController {
     
     @objc func loginButtonPressed() {
         performSegue(withIdentifier: "showCountryListVC", sender: self)
-//        let valid = validateFields()
-//        if valid {
-//            let countryListViewController = CountryListViewController.fromStoryboard()
-//            countryListViewController.email = loginFormView.emailTextField.text
-//            navigationController?.pushViewController(countryListViewController, animated: true)
-//        }
     }
     
     func validateFields() -> Bool {
