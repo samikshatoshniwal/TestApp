@@ -16,7 +16,7 @@ class UnAuthenticatedRestAPIService: NSObject {
     
     func getCountryData(completionHandler:((_ success: Bool, _ error: Error?, _ response: [Country]?)->())?) {
         
-        Alamofire.request("http://services.groupkt.com/country/get/all", method: .get, parameters: nil, encoding: URLEncoding.default, headers: nil).responseJSON { [weak self] (response) in
+        Alamofire.request("http://services.groupkt.com/country/get/all", method: .get, parameters: nil, encoding: URLEncoding.default, headers: nil).responseJSON { (response) in
             switch response.result {
             case .success:
                 if response.response?.statusCode == 200 && response.data != nil {

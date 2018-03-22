@@ -37,9 +37,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <segue destination="dsq-x7-1WI" kind="presentation" identifier="showCountryListVC" id="Ys0-UI-msN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="500" y="18"/>
         </scene>
         <!--Country List View Controller-->
         <scene sceneID="NR8-ht-Rvi">

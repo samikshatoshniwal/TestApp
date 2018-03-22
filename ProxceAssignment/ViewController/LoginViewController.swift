@@ -47,13 +47,25 @@ class LoginViewController: UIViewController {
     
     // MARK: action methods
     
-    @objc func loginButtonPressed() {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let valid = validateFields()
         if valid {
-            let countryListViewController = CountryListViewController.fromStoryboard()
-            countryListViewController.email = loginFormView.emailTextField.text
-            navigationController?.pushViewController(countryListViewController, animated: true)
+            if segue.identifier == "showCountryListVC", let destinationViewController = segue.destination as? CountryListViewController {
+                destinationViewController.email = loginFormView.emailTextField.text
+                destinationViewController.transitioningDelegate = self
+                destinationViewController.modalPresentationStyle = .custom
+            }
         }
+    }
+    
+    @objc func loginButtonPressed() {
+        performSegue(withIdentifier: "showCountryListVC", sender: self)
+//        let valid = validateFields()
+//        if valid {
+//            let countryListViewController = CountryListViewController.fromStoryboard()
+//            countryListViewController.email = loginFormView.emailTextField.text
+//            navigationController?.pushViewController(countryListViewController, animated: true)
+//        }
     }
     
     func validateFields() -> Bool {
@@ -95,3 +107,10 @@ class LoginViewController: UIViewController {
     }
 }
 
+extension LoginViewController: UIViewControllerTransitioningDelegate {
+    
+    func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        let presentationAnimator = TransitionPresentationAnimator()
+        return presentationAnimator
+    }
+}

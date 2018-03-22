@@ -77,7 +77,7 @@ class CountryListViewController: UIViewController {
         showAlert(withTitle: "Allow access your location while you use the app?", message: "That allows fetching your location for services to the app", cancelButtonTitle: "Cancel", otherButtonTitle: "Go To Settings", cancelButtonPostHandler: {[unowned self] in
             self.navigationController?.popViewController(animated: true)
             }, otherButtonPostHandler: {
-                UIApplication.shared.openURL(URL(string: UIApplicationOpenSettingsURLString)!)
+                UIApplication.shared.open(URL(string: UIApplicationOpenSettingsURLString)!, options: [:], completionHandler: nil)
         })
     }
     
