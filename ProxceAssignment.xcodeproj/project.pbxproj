@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20E019B0BC453BEB847C1877 /* Pods_ProxceAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDB0B5FA9AF3E3C02EC4E5F3 /* Pods_ProxceAssignment.framework */; };
 		63F0FD472062CECE00ECD7F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F0FD462062CECE00ECD7F4 /* AppDelegate.swift */; };
-		63F0FD492062CECE00ECD7F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F0FD482062CECE00ECD7F4 /* ViewController.swift */; };
+		63F0FD492062CECE00ECD7F4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F0FD482062CECE00ECD7F4 /* LoginViewController.swift */; };
 		63F0FD4C2062CECE00ECD7F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F0FD4A2062CECE00ECD7F4 /* Main.storyboard */; };
 		63F0FD4E2062CECE00ECD7F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63F0FD4D2062CECE00ECD7F4 /* Assets.xcassets */; };
 		63F0FD512062CECE00ECD7F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F0FD4F2062CECE00ECD7F4 /* LaunchScreen.storyboard */; };
+		63F0FD5F2062D4E400ECD7F4 /* RootViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F0FD5E2062D4E400ECD7F4 /* RootViewControllerFactory.swift */; };
+		63F0FD632062DC8F00ECD7F4 /* LoginFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F0FD622062DC8F00ECD7F4 /* LoginFormView.swift */; };
+		63F0FD682062F38900ECD7F4 /* CountryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F0FD672062F38900ECD7F4 /* CountryListViewController.swift */; };
+		63F0FD6B2062F77600ECD7F4 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F0FD6A2062F77600ECD7F4 /* UIViewController+Alert.swift */; };
+		63F0FD702063037700ECD7F4 /* String+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F0FD6F2063037700ECD7F4 /* String+Validation.swift */; };
+		63F0FD732063050A00ECD7F4 /* UnauthenticatedApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F0FD722063050A00ECD7F4 /* UnauthenticatedApiService.swift */; };
+		63F0FD76206305C400ECD7F4 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F0FD75206305C400ECD7F4 /* Country.swift */; };
+		63F0FD7A2063175E00ECD7F4 /* CountryListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F0FD792063175E00ECD7F4 /* CountryListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F547B6625290F36D693EE32 /* Pods-ProxceAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProxceAssignment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProxceAssignment/Pods-ProxceAssignment.debug.xcconfig"; sourceTree = "<group>"; };
 		63F0FD432062CECE00ECD7F4 /* ProxceAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProxceAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63F0FD462062CECE00ECD7F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		63F0FD482062CECE00ECD7F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63F0FD482062CECE00ECD7F4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		63F0FD4B2062CECE00ECD7F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63F0FD4D2062CECE00ECD7F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63F0FD502062CECE00ECD7F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63F0FD522062CECE00ECD7F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63F0FD5E2062D4E400ECD7F4 /* RootViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewControllerFactory.swift; sourceTree = "<group>"; };
+		63F0FD622062DC8F00ECD7F4 /* LoginFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormView.swift; sourceTree = "<group>"; };
+		63F0FD672062F38900ECD7F4 /* CountryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListViewController.swift; sourceTree = "<group>"; };
+		63F0FD6A2062F77600ECD7F4 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		63F0FD6F2063037700ECD7F4 /* String+Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Validation.swift"; sourceTree = "<group>"; };
+		63F0FD722063050A00ECD7F4 /* UnauthenticatedApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnauthenticatedApiService.swift; sourceTree = "<group>"; };
+		63F0FD75206305C400ECD7F4 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		63F0FD792063175E00ECD7F4 /* CountryListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListTableViewCell.swift; sourceTree = "<group>"; };
+		BDB0B5FA9AF3E3C02EC4E5F3 /* Pods_ProxceAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProxceAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F30C0832C81C93AFC10C709E /* Pods-ProxceAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProxceAssignment.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProxceAssignment/Pods-ProxceAssignment.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20E019B0BC453BEB847C1877 /* Pods_ProxceAssignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +61,8 @@
 			children = (
 				63F0FD452062CECE00ECD7F4 /* ProxceAssignment */,
 				63F0FD442062CECE00ECD7F4 /* Products */,
+				D9942CE080A34646D95F6C90 /* Pods */,
+				FA0DC877272AA2E33F3C4A03 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +77,87 @@
 		63F0FD452062CECE00ECD7F4 /* ProxceAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				63F0FD692062F76400ECD7F4 /* Util */,
+				63F0FD74206305B600ECD7F4 /* Model */,
+				63F0FD612062DC8500ECD7F4 /* View */,
+				63F0FD602062D4EF00ECD7F4 /* ViewController */,
+				63F0FD5D2062D2C100ECD7F4 /* Storyboards */,
+				63F0FD71206304EF00ECD7F4 /* WebService */,
 				63F0FD462062CECE00ECD7F4 /* AppDelegate.swift */,
-				63F0FD482062CECE00ECD7F4 /* ViewController.swift */,
-				63F0FD4A2062CECE00ECD7F4 /* Main.storyboard */,
 				63F0FD4D2062CECE00ECD7F4 /* Assets.xcassets */,
-				63F0FD4F2062CECE00ECD7F4 /* LaunchScreen.storyboard */,
 				63F0FD522062CECE00ECD7F4 /* Info.plist */,
 			);
 			path = ProxceAssignment;
+			sourceTree = "<group>";
+		};
+		63F0FD5D2062D2C100ECD7F4 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				63F0FD4A2062CECE00ECD7F4 /* Main.storyboard */,
+				63F0FD4F2062CECE00ECD7F4 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		63F0FD602062D4EF00ECD7F4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				63F0FD482062CECE00ECD7F4 /* LoginViewController.swift */,
+				63F0FD672062F38900ECD7F4 /* CountryListViewController.swift */,
+				63F0FD5E2062D4E400ECD7F4 /* RootViewControllerFactory.swift */,
+				63F0FD792063175E00ECD7F4 /* CountryListTableViewCell.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		63F0FD612062DC8500ECD7F4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				63F0FD622062DC8F00ECD7F4 /* LoginFormView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		63F0FD692062F76400ECD7F4 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				63F0FD6A2062F77600ECD7F4 /* UIViewController+Alert.swift */,
+				63F0FD6F2063037700ECD7F4 /* String+Validation.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		63F0FD71206304EF00ECD7F4 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				63F0FD722063050A00ECD7F4 /* UnauthenticatedApiService.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		63F0FD74206305B600ECD7F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				63F0FD75206305C400ECD7F4 /* Country.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D9942CE080A34646D95F6C90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F547B6625290F36D693EE32 /* Pods-ProxceAssignment.debug.xcconfig */,
+				F30C0832C81C93AFC10C709E /* Pods-ProxceAssignment.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA0DC877272AA2E33F3C4A03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDB0B5FA9AF3E3C02EC4E5F3 /* Pods_ProxceAssignment.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63F0FD552062CECE00ECD7F4 /* Build configuration list for PBXNativeTarget "ProxceAssignment" */;
 			buildPhases = (
+				2F19FD85E32E8D112D04E92F /* [CP] Check Pods Manifest.lock */,
 				63F0FD3F2062CECE00ECD7F4 /* Sources */,
 				63F0FD402062CECE00ECD7F4 /* Frameworks */,
 				63F0FD412062CECE00ECD7F4 /* Resources */,
+				19F03645E78B903D7032E5F2 /* [CP] Embed Pods Frameworks */,
+				A5E243182B47309C86356A0B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +230,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19F03645E78B903D7032E5F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ProxceAssignment/Pods-ProxceAssignment-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProxceAssignment/Pods-ProxceAssignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F19FD85E32E8D112D04E92F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProxceAssignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5E243182B47309C86356A0B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProxceAssignment/Pods-ProxceAssignment-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		63F0FD3F2062CECE00ECD7F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63F0FD492062CECE00ECD7F4 /* ViewController.swift in Sources */,
+				63F0FD7A2063175E00ECD7F4 /* CountryListTableViewCell.swift in Sources */,
+				63F0FD492062CECE00ECD7F4 /* LoginViewController.swift in Sources */,
+				63F0FD76206305C400ECD7F4 /* Country.swift in Sources */,
+				63F0FD682062F38900ECD7F4 /* CountryListViewController.swift in Sources */,
 				63F0FD472062CECE00ECD7F4 /* AppDelegate.swift in Sources */,
+				63F0FD732063050A00ECD7F4 /* UnauthenticatedApiService.swift in Sources */,
+				63F0FD6B2062F77600ECD7F4 /* UIViewController+Alert.swift in Sources */,
+				63F0FD632062DC8F00ECD7F4 /* LoginFormView.swift in Sources */,
+				63F0FD5F2062D4E400ECD7F4 /* RootViewControllerFactory.swift in Sources */,
+				63F0FD702063037700ECD7F4 /* String+Validation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,13 +437,15 @@
 		};
 		63F0FD562062CECE00ECD7F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F547B6625290F36D693EE32 /* Pods-ProxceAssignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 997L77XEM5;
+				DEVELOPMENT_TEAM = RL8J62A42V;
 				INFOPLIST_FILE = ProxceAssignment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.samiksha.ProxceAssignment;
+				PRODUCT_BUNDLE_IDENTIFIER = com.samiksha.testAssignment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -287,13 +454,15 @@
 		};
 		63F0FD572062CECE00ECD7F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F30C0832C81C93AFC10C709E /* Pods-ProxceAssignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 997L77XEM5;
+				DEVELOPMENT_TEAM = RL8J62A42V;
 				INFOPLIST_FILE = ProxceAssignment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.samiksha.ProxceAssignment;
+				PRODUCT_BUNDLE_IDENTIFIER = com.samiksha.testAssignment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
